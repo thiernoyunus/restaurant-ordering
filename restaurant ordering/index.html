@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <img class="header-img" src="/images/banner.png" alt="Jimmy's Diner banner logo">
+        </header>
+        <main>
+        <div class="menu" id="menu">
+			<!--  menu items -->
+		</div>
+        
+        </main>
+        <section id="order">
+            <!-- order summary -->
+        </section>
+        <div class="payment-form" id="payment-form">
+            <div class="close-modal-btn-container">
+                <button class="close-btn-modal" id="close-btn-modal">x</button>
+            </div>
+            <div class="modal-inner" id="modal-inner">
+                <h2 id="h2-modal">Enter card details</h2>
+                <form id="payment-info">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Thierno Diallo"
+                        required
+                        >
+                    <label for="cardNumber">Card Number</label>
+                    <input
+                        type="number"
+                        id="cardNumber"
+                        name="cardNumber"
+                        placeholder="xxxx xxxx xxxx xxxx"
+                        maxlength="19"
+                        pattern="\d*"
+                        required
+                        >
+                    <label for="cvv">CVV</label>
+                    <input
+                        type="number"
+                        id="cvv"
+                        name="cvv"
+                        placeholder="423"
+                        maxlength="3"
+                        required
+                        >
+                    <button class="pay-btn" type="submit" id="pay-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
