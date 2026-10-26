@@ -1,4 +1,8 @@
 <p align="center">
+  <img src=".github/assets/logo.png" width="112" alt="Restaurant Ordering logo" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/glow.svg?title=Restaurant+Ordering&subtitle=Build+an+order+and+check+out+%28demo%29&logo=ubereats&mode=dark" />
     <img alt="Restaurant Ordering" src="https://shieldcn.dev/header/glow.svg?title=Restaurant+Ordering&subtitle=Build+an+order+and+check+out+%28demo%29&logo=ubereats&mode=light" />
